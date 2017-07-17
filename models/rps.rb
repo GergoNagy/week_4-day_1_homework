@@ -1,11 +1,11 @@
 class RockPaperScissor
 
-  def initialize(player1, player2)
-    @player1 = player1
-    @player2 = player2
-  end
+  # def initialize(player1, player2)
+  #   @player1 = player1
+  #   @player2 = player2
+  # end
 
-  def play
+  def play(player1, player2)
     if @player1 == @player2
       return "Lets try again!"
     elsif 
